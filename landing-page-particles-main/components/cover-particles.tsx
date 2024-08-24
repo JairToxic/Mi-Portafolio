@@ -1,5 +1,3 @@
-"use client";
-
 import { useEffect, useState } from "react";
 import { loadSlim } from "@tsparticles/slim";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
@@ -53,7 +51,7 @@ export const CoverParticles = () => {
                 width: 1,
             },
             move: {
-                direction: "none", // Cambiado de "string" a un valor compatible
+                direction: "none",
                 enable: true,
                 outModes: {
                     default: "bounce",
@@ -66,13 +64,13 @@ export const CoverParticles = () => {
                 density: {
                     enable: true,
                 },
-                value: 80,
+                value: 100,
             },
             opacity: {
-                value: 0.5,
+                value: 0.6,
             },
             shape: {
-                type: "circle",
+                type: "star", // Cambiado a estrella
             },
             size: {
                 value: { min: 1, max: 5 },
