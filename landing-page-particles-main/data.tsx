@@ -62,9 +62,15 @@ export const itemsNavbar = [
     },
     {
         id: 6,
-        title: "Home",
+        title: "Certificaciones",
         icon: <Award  size={25} color="#fff" strokeWidth={1} />,
         link: "/certificaciones",
+    },
+    {
+        id: 7,
+        title: "Skills",
+        icon: <Rocket  size={25} color="#fff" strokeWidth={1} />,
+        link: "/skills",
     },
 ];
 
